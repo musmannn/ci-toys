@@ -8,4 +8,4 @@ def test_add():
 def test_mean():
     # RED run: change the expected value to 3 and push -> both matrix jobs fail.
     # GREEN run: change it back to 2 and push.
-    assert mean([1, 2, 3]) == 3
+    assert mean([1, 2, 3]) == 2
